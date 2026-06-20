@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Omojo Ronald — Cybersecurity & Systems Engineer</title>
+  <meta name="description" content="CS graduate, security practitioner, and systems engineer based in Lagos, Nigeria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="prompt">~/</span><span class="nav__name">samuelomojronald</span>
+    </div>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#certifications">certs</a></li>
+      <li><a href="#contact" class="nav__cta">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__scanlines"></div>
+    <div class="hero__content">
+      <div class="hero__terminal">
+        <div class="terminal__bar">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+          <span class="terminal__title">samuel@portfolio:~</span>
+        </div>
+        <div class="terminal__body">
+          <p class="terminal__line"><span class="prompt">$</span> whoami</p>
+          <h1 class="hero__name">Samuel Omojo Ronald</h1>
+          <p class="terminal__line"><span class="prompt">$</span> cat role.txt</p>
+          <p class="hero__role"><span id="typewriter"></span><span class="cursor">▋</span></p>
+          <p class="terminal__line"><span class="prompt">$</span> locate --base Lagos,Nigeria</p>
+          <p class="hero__location"><span class="accent">✓</span> BSc Computer Science · Babcock University, 2024</p>
+          <p class="terminal__line hero__cmd"><span class="prompt">$</span> <span class="blink">_</span></p>
+        </div>
+      </div>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="mailto:ronaldsamuel492@gmail.com" class="btn btn--ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__grid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__eyebrow"><span class="prompt">$</span> cat about.md</div>
+      <h2 class="section__title">About Me</h2>
+      <div class="about__grid">
+        <div class="about__bio">
+          <p>I'm a Computer Science graduate from Babcock University with a passion for securing digital infrastructure and making sense of complex data. My work sits at the crossroads of <span class="highlight">cybersecurity</span>, <span class="highlight">data analytics</span>, and <span class="highlight">systems engineering</span>.</p>
+          <p>I hold industry certifications in CompTIA A+, Oracle Database 12c, Java SE8 (OCA/OCP), and CSCU — and I'm actively deepening my expertise in information security, network defence, and vulnerability assessment.</p>
+          <p>When I'm not auditing systems or writing security tooling, I'm building open-source projects that demonstrate real-world security concepts for practitioners at every level.</p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">5+</span>
+            <span class="stat__label">Certifications</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">3+</span>
+            <span class="stat__label">Years Building</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">10+</span>
+            <span class="stat__label">Projects Shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">∞</span>
+            <span class="stat__label">Lines of Logs Read</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--dark" id="experience">
+    <div class="container">
+      <div class="section__eyebrow"><span class="prompt">$</span> cat experience.log</div>
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__meta">
+            <span class="timeline__date">2024 — Present</span>
+            <span class="timeline__tag">Current</span>
+          </div>
+          <div class="timeline__card">
+            <h3 class="timeline__role">IT Support & Systems Analyst</h3>
+            <p class="timeline__company">Freelance / Independent Consulting · Lagos, Nigeria</p>
+            <ul class="timeline__bullets">
+              <li>Provide end-to-end IT support and infrastructure advisory for SMEs across Lagos</li>
+              <li>Conduct vulnerability assessments and basic penetration tests for client networks</li>
+              <li>Automate routine system monitoring tasks using Python and Bash scripting</li>
+              <li>Configure and harden network devices (firewalls, routers, switches) for small business environments</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__meta">
+            <span class="timeline__date">2023 — 2024</span>
+          </div>
+          <div class="timeline__card">
+            <h3 class="timeline__role">Data & Operations Analytics Intern</h3>
+            <p class="timeline__company">Academic & Industry Attachment · Nigeria</p>
+            <ul class="timeline__bullets">
+              <li>Analysed operational datasets to surface efficiency bottlenecks and produce actionable dashboards</li>
+              <li>Built SQL queries against Oracle 12c databases for reporting pipelines</li>
+              <li>Collaborated with cross-functional teams to translate business requirements into data models</li>
+              <li>Documented data governance procedures to ensure compliance with internal data policies</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__meta">
+            <span class="timeline__date">2022 — 2023</span>
+          </div>
+          <div class="timeline__card">
+            <h3 class="timeline__role">Cybersecurity Research Assistant</h3>
+            <p class="timeline__company">Babcock University · Ilishan-Remo, Nigeria</p>
+            <ul class="timeline__bullets">
+              <li>Assisted faculty in researching network intrusion detection techniques using open-source tooling</li>
+              <li>Set up and managed lab environments in VirtualBox/VMware for security experiments</li>
+              <li>Documented findings on common attack vectors (phishing, MITM, SQL injection) for department publications</li>
+              <li>Mentored junior students in fundamentals of network security and ethical hacking</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__meta">
+            <span class="timeline__date">2021 — 2022</span>
+          </div>
+          <div class="timeline__card">
+            <h3 class="timeline__role">Junior Software Developer (Academic Project)</h3>
+            <p class="timeline__company">Babcock University CS Department · Ilishan-Remo, Nigeria</p>
+            <ul class="timeline__bullets">
+              <li>Developed a student records management system in Java using OOP principles</li>
+              <li>Integrated Oracle 12c as the backend database with optimised query structures</li>
+              <li>Applied software development lifecycle (SDLC) methodology across planning, design, and deployment phases</li>
+              <li>Wrote unit tests and conducted code reviews to maintain code quality standards</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__eyebrow"><span class="prompt">$</span> ls -la ~/projects/</div>
+      <h2 class="section__title">Projects</h2>
+      <div class="projects__grid">
+
+        <div class="project__card" data-aos>
+          <div class="project__header">
+            <span class="project__icon">🛡️</span>
+            <div class="project__links">
+              <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project__title">NetSentry — Network Intrusion Monitor</h3>
+          <p class="project__desc">A Python-based passive network scanner that detects anomalous traffic patterns, flags potential port scans, and logs suspicious IP activity to a SQLite database for forensic review.</p>
+          <div class="project__tags">
+            <span class="tag">Python</span><span class="tag">Scapy</span><span class="tag">SQLite</span><span class="tag">Network Security</span>
+          </div>
+        </div>
+
+        <div class="project__card" data-aos>
+          <div class="project__header">
+            <span class="project__icon">🔍</span>
+            <div class="project__links">
+              <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project__title">VulnMapper — Vulnerability Assessment Tool</h3>
+          <p class="project__desc">CLI tool that automates basic vulnerability scanning against a target host, integrates with CVE databases via API, and generates structured PDF reports with CVSS scores and remediation recommendations.</p>
+          <div class="project__tags">
+            <span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">REST API</span><span class="tag">CVE</span>
+          </div>
+        </div>
+
+        <div class="project__card" data-aos>
+          <div class="project__header">
+            <span class="project__icon">📊</span>
+            <div class="project__links">
+              <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project__title">SecureLog — SIEM Dashboard Prototype</h3>
+          <p class="project__desc">A lightweight Security Information and Event Management prototype built with Python Flask and Chart.js. Ingests syslog data, visualises event frequency, and triggers email alerts on anomaly thresholds.</p>
+          <div class="project__tags">
+            <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Chart.js</span><span class="tag">Syslog</span>
+          </div>
+        </div>
+
+        <div class="project__card" data-aos>
+          <div class="project__header">
+            <span class="project__icon">🗄️</span>
+            <div class="project__links">
+              <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project__title">OracleOps — Student Records System</h3>
+          <p class="timeline__company"></p>
+          <p class="project__desc">A Java-based academic records management system with Oracle 12c backend. Features role-based access control, encrypted credential storage, audit trail logging, and full CRUD operations via a Swing GUI.</p>
+          <div class="project__tags">
+            <span class="tag">Java</span><span class="tag">Oracle 12c</span><span class="tag">RBAC</span><span class="tag">Swing</span>
+          </div>
+        </div>
+
+        <div class="project__card" data-aos>
+          <div class="project__header">
+            <span class="project__icon">🔐</span>
+            <div class="project__links">
+              <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project__title">PhishGuard — Email Phishing Analyser</h3>
+          <p class="project__desc">Python tool that parses raw email headers and body content, scores phishing likelihood using heuristic rules and keyword matching, and provides an explainability report with flagged indicators.</p>
+          <div class="project__tags">
+            <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Email Security</span><span class="tag">Regex</span>
+          </div>
+        </div>
+
+        <div class="project__card project__card--wide" data-aos>
+          <div class="project__header">
+            <span class="project__icon">📡</span>
+            <div class="project__links">
+              <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project__title">WireWatch — Packet Capture & Analysis Dashboard</h3>
+          <p class="project__desc">Full-stack application combining a Python backend (using PyShark) for live packet capture with a real-time web dashboard. Visualises protocol distribution, top talkers, and suspicious payload patterns. Designed as an educational blue-team tool for SOC analyst training.</p>
+          <div class="project__tags">
+            <span class="tag">Python</span><span class="tag">PyShark</span><span class="tag">WebSockets</span><span class="tag">JavaScript</span><span class="tag">Blue Team</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--dark" id="skills">
+    <div class="container">
+      <div class="section__eyebrow"><span class="prompt">$</span> dpkg --list skills</div>
+      <h2 class="section__title">Technical Skills</h2>
+      <div class="skills__grid">
+
+        <div class="skill__group">
+          <h3 class="skill__group-title">Security</h3>
+          <div class="skill__pills">
+            <span class="pill">Network Security</span>
+            <span class="pill">Vulnerability Assessment</span>
+            <span class="pill">Penetration Testing</span>
+            <span class="pill">SIEM</span>
+            <span class="pill">Incident Response</span>
+            <span class="pill">Phishing Analysis</span>
+            <span class="pill">Firewall Configuration</span>
+            <span class="pill">Cryptography</span>
+          </div>
+        </div>
+
+        <div class="skill__group">
+          <h3 class="skill__group-title">Programming</h3>
+          <div class="skill__pills">
+            <span class="pill">Python</span>
+            <span class="pill">Java</span>
+            <span class="pill">Bash / Shell</span>
+            <span class="pill">SQL</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">HTML / CSS</span>
+          </div>
+        </div>
+
+        <div class="skill__group">
+          <h3 class="skill__group-title">Tools & Platforms</h3>
+          <div class="skill__pills">
+            <span class="pill">Nmap</span>
+            <span class="pill">Wireshark</span>
+            <span class="pill">Metasploit</span>
+            <span class="pill">Burp Suite</span>
+            <span class="pill">Oracle 12c</span>
+            <span class="pill">VirtualBox / VMware</span>
+            <span class="pill">Git / GitHub</span>
+            <span class="pill">Linux (Ubuntu, Kali)</span>
+          </div>
+        </div>
+
+        <div class="skill__group">
+          <h3 class="skill__group-title">Data & Analytics</h3>
+          <div class="skill__pills">
+            <span class="pill">Data Analysis</span>
+            <span class="pill">Operations Analytics</span>
+            <span class="pill">Dashboard Design</span>
+            <span class="pill">ETL Pipelines</span>
+            <span class="pill">Excel / Google Sheets</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section__eyebrow"><span class="prompt">$</span> verify --credentials certs/</div>
+      <h2 class="section__title">Certifications</h2>
+      <div class="certs__grid">
+
+        <div class="cert__card" data-aos>
+          <div class="cert__badge">A+</div>
+          <div class="cert__info">
+            <h3 class="cert__name">CompTIA A+</h3>
+            <p class="cert__issuer">CompTIA</p>
+            <p class="cert__desc">Hardware, networking, operating systems, security, and troubleshooting for IT support roles</p>
+          </div>
+          <span class="cert__status cert__status--verified">✓ Verified</span>
+        </div>
+
+        <div class="cert__card" data-aos>
+          <div class="cert__badge">ORA</div>
+          <div class="cert__info">
+            <h3 class="cert__name">Oracle Database 12c</h3>
+            <p class="cert__issuer">Oracle</p>
+            <p class="cert__desc">Database administration, SQL fundamentals, and Oracle architecture</p>
+          </div>
+          <span class="cert__status cert__status--verified">✓ Verified</span>
+        </div>
+
+        <div class="cert__card" data-aos>
+          <div class="cert__badge">OCA</div>
+          <div class="cert__info">
+            <h3 class="cert__name">Java SE8 OCA</h3>
+            <p class="cert__issuer">Oracle</p>
+            <p class="cert__desc">Java SE 8 Programmer I — Core Java language features and OOP fundamentals</p>
+          </div>
+          <span class="cert__status cert__status--verified">✓ Verified</span>
+        </div>
+
+        <div class="cert__card" data-aos>
+          <div class="cert__badge">OCP</div>
+          <div class="cert__info">
+            <h3 class="cert__name">Java SE8 OCP</h3>
+            <p class="cert__issuer">Oracle</p>
+            <p class="cert__desc">Java SE 8 Programmer II — Advanced APIs, concurrency, I/O, and lambda expressions</p>
+          </div>
+          <span class="cert__status cert__status--verified">✓ Verified</span>
+        </div>
+
+        <div class="cert__card" data-aos>
+          <div class="cert__badge">CSC</div>
+          <div class="cert__info">
+            <h3 class="cert__name">CSCU — Certified Secure Computer User</h3>
+            <p class="cert__issuer">EC-Council</p>
+            <p class="cert__desc">End-user security awareness, safe internet practices, and data protection principles</p>
+          </div>
+          <span class="cert__status cert__status--verified">✓ Verified</span>
+        </div>
+
+        <div class="cert__card cert__card--pursuing" data-aos>
+          <div class="cert__badge cert__badge--pursuing">CEH</div>
+          <div class="cert__info">
+            <h3 class="cert__name">Certified Ethical Hacker (CEH)</h3>
+            <p class="cert__issuer">EC-Council</p>
+            <p class="cert__desc">Offensive security techniques, penetration testing methodologies, and ethical hacking</p>
+          </div>
+          <span class="cert__status cert__status--pursuing">⏳ In Progress</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="section__eyebrow"><span class="prompt">$</span> ssh contact@samuelomojronald</div>
+      <h2 class="section__title">Get In Touch</h2>
+      <p class="contact__sub">Open to cybersecurity roles, data analytics projects, and consulting engagements. Let's talk.</p>
+      <div class="contact__grid">
+        <a href="mailto:ronaldsamuel492@gmail.com" class="contact__item">
+          <span class="contact__icon">✉</span>
+          <span class="contact__label">Email</span>
+          <span class="contact__value">ronaldsamuel492@gmail.com</span>
+        </a>
+        <a href="https://github.com/samuelomojronald" target="_blank" rel="noopener" class="contact__item">
+          <span class="contact__icon">⌨</span>
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">github.com/samuelomojronald</span>
+        </a>
+        <div class="contact__item">
+          <span class="contact__icon">📍</span>
+          <span class="contact__label">Location</span>
+          <span class="contact__value">Lagos, Nigeria</span>
+        </div>
+      </div>
+      <a href="mailto:ronaldsamuel492@gmail.com" class="btn btn--primary btn--large">Send a Message</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text"><span class="prompt">$</span> echo "Built by Samuel Omojo Ronald · 2024" <span class="accent">·</span> Lagos, Nigeria</p>
+      <p class="footer__copy">Designed to secure. Built to ship.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
